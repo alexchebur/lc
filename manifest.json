@@ -3,8 +3,8 @@
   "short_name": "Лена Майнит Койны",
   "id": "com.example.lanerunner3d",
   "description": "Это игра, в которой именинница Лена ловит ЛенаКойны, чтобы стать криптовалютным миллионером.",
-  "orientation": "portrait",
-  "start_url": "./index.html",
+  "orientation": "portrait-primary",
+  "start_url": "https://alexchebur.github.io/lc/index.html",
   "display": "fullscreen",
   "background_color": "#242323",
   "categories": [
@@ -114,5 +114,12 @@
   "prefer_related_applications": false,
   "edge_side_panel": {
     "preferred_width": 0
-  }
+  },
+  "display_override": [
+    "fullscreen",
+    "browser",
+    "minimal-ui",
+    "standalone",
+    "window-controls-overlay"
+  ]
 }
